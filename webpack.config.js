@@ -1,4 +1,4 @@
-const HtmlWebpackPlugin = require("html-webpack-plugins");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 const webpack = require("webpack");
 const prod = process.env.NODE_ENV === "production";
@@ -6,7 +6,7 @@ const prod = process.env.NODE_ENV === "production";
 module.exports = {
   mode: prod ? "production" : "development",
   devtool: prod ? "hidden-source-map" : "eval",
-  entry: "./src/index.js",
+  entry: "./src/index.tsx",
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
   },
@@ -27,10 +27,8 @@ module.exports = {
 
   devServer: {
     historyApiFallback: true,
-    inline: true,
     port: 3000,
     hot: true,
-    publicPath: "/",
   },
 
   plugins: [
