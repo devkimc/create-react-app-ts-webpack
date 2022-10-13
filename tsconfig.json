@@ -11,7 +11,10 @@
     "isolatedModules": false,
     "jsx": "preserve",
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "outDir": "./dist",
     "moduleResolution": "node"
   },
