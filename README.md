@@ -1,4 +1,4 @@
-# react_webpack_ts_boilerplate
+# react-webpack-ts-boilerplate
 
 ### It automatically builds a react, webpack, and ts working environment. This package helps you set up:
 
