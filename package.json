@@ -1,15 +1,26 @@
 {
-    "name": "saic-web",
-    "version": "1.0.0",
-    "description": "Hanadal Admin Web",
+    "name": "react-webpack-ts-boilerplate",
+    "version": "0.0.1",
+    "description": "It automatically builds a react, webpack, and ts working environment",
     "main": "index.tsx",
     "scripts": {
         "dev": "webpack-dev-server --config config/webpack.dev.js",
         "build": "webpack --config config/webpack.prod.js"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "react",
+        "typescript",
+        "webpack",
+        "airbnb",
+        "yarn-berry",
+        "prettier",
+        "eslint"
+    ],
+    "homepage": "https://github.com/vvs-kim/react_webpack_ts_boilerplate",
+    "author": {
+        "name": "Wooseok Kim"
+    },
+    "license": "",
     "dependencies": {
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
