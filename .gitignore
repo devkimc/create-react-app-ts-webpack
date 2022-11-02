@@ -1,5 +1,11 @@
-// module
-node_modules
-
-// build
+# build
 dist
+
+# zero-install
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
