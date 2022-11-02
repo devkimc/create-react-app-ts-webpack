@@ -12,8 +12,7 @@
 ## Installation
 
 ```
-$ npm install react-webpack-ts-boilerplate
-$ yarn add react-webpack-ts-boilerplate
+$ yarn
 ```
 
 ## Development Environment
