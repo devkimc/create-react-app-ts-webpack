@@ -23,7 +23,7 @@ if (projectName !== '.') {
         if (error.code === 'EEXIST') {
             console.log(projectName);
             console.log(
-                `The file ${projectName} already exist in the current directory, please give it another name.`
+                `The file ${projectName} already exist in the current directory, please give it another name.`,
             );
         } else {
             console.log(error);
@@ -42,8 +42,7 @@ async function main() {
         }
 
         console.log('Installing dependencies');
-        execSync('yarn set version berry');
-        execSync('yarn install');
+        execSync('npm install');
 
         console.log('Removing useless files');
         execSync('npx rimraf ./git');
