@@ -9,6 +9,12 @@
 
 <br />
 
+## create-react-project
+
+```
+$ npx create-react-webpack-ts-app your-app-name
+```
+
 ## Installation
 
 ```
