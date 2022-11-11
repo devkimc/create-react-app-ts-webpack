@@ -41,6 +41,8 @@ async function main() {
             process.chdir(projectPath);
         }
 
+        console.log('Checking clone');
+
         console.log('Removing useless files');
         execSync('npx rimraf ./git');
         execSync('npx rimraf ./bin');
