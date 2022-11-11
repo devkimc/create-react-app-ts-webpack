@@ -42,6 +42,7 @@ async function main() {
         }
 
         console.log('Installing dependencies');
+        execSync('yarn set version berry');
         execSync('yarn install');
 
         console.log('Removing useless files');
