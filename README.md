@@ -9,7 +9,7 @@
 
 <br />
 
-## create-react-project
+## Create-react-project
 
 ```
 $ npx create-react-webpack-ts-app your-app-name
