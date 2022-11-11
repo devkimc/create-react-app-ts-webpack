@@ -41,9 +41,6 @@ async function main() {
             process.chdir(projectPath);
         }
 
-        console.log('Installing dependencies');
-        execSync('npm install');
-
         console.log('Removing useless files');
         execSync('npx rimraf ./git');
         execSync('npx rimraf ./bin');
