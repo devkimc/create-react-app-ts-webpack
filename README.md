@@ -1,10 +1,10 @@
-# react-webpack-ts-boilerplate
+# create-react-app-ts-webpack
 
 ### 2022-11-13
 
 -   ❌ Improve errors where the node_modules folder is created
 
-### It automatically builds a react, webpack, and ts working environment. This package helps the following people:
+### It automatically builds a react, typescript, and webpack working environment. This package helps the following people:
 
 -   People who want a light initial project because the create-react-app CRA is heavy
 -   People who need a CRA with react, typescript, yarn, etc
@@ -17,7 +17,7 @@
 ## Create-react-project
 
 ```
-$ npx create-react-webpack-ts-app your-app-name
+$ npx create-react-app-ts-webpack your-app-name
 ```
 
 ## Check Installation

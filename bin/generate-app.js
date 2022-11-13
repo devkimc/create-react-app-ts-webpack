@@ -7,14 +7,14 @@ const fs = require('fs');
 if (process.argv.length < 3) {
     console.log('You have to provide a name to your app.');
     console.log('For example :');
-    console.log('    npx create-react-ts-webpack-app my-app');
+    console.log('    npx create-react-app-ts-webpack my-app');
     process.exit(1);
 }
 
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const GIT_REPO = 'https://github.com/vvs-kim/react-ts-webpack-boilerplate';
+const GIT_REPO = 'https://github.com/vvs-kim/create-react-app-ts-webpack';
 
 if (projectName !== '.') {
     try {
@@ -41,7 +41,7 @@ async function main() {
             process.chdir(projectPath);
         }
 
-        console.log('Removing useless files');
+        console.log('🗑 Removing useless files');
         execSync('npx rimraf ./bin');
         execSync('npx rimraf ./.git');
 
