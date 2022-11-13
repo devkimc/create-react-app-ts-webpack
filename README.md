@@ -1,6 +1,10 @@
 # react-webpack-ts-boilerplate
 
-### It automatically builds a react, ts, and webpack working environment. This package helps you set up:
+### 2022-11-13
+
+-   ❌ Improve errors where the node_modules folder is created
+
+### It automatically builds a react, webpack, and ts working environment. This package helps you set up:
 
 -   Webpack build setting
 -   Airbnb convention(eslint, prettier)
@@ -12,7 +16,7 @@
 ## Create-react-project
 
 ```
-$ npx create-react-ts-webpack-app your-app-name
+$ npx create-react-webpack-ts-app your-app-name
 ```
 
 ## Check Installation

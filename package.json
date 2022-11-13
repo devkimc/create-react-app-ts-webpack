@@ -1,20 +1,20 @@
 {
-    "name": "create-react-ts-webpack-app",
-    "version": "0.0.1",
-    "description": "It automatically builds a react, ts, and webpack working environment",
+    "name": "create-react-webpack-ts-app",
+    "version": "0.1.0",
+    "description": "It automatically builds a react, webpack, and typescript working environment",
     "main": "index.tsx",
     "scripts": {
         "dev": "webpack-dev-server --config config/webpack.dev.js",
         "build": "webpack --config config/webpack.prod.js"
     },
     "license": "ISC",
-    "homepage": "https://github.com/vvs-kim/react-ts-webpack-boilerplate",
+    "homepage": "https://github.com/vvs-kim/react-webpack-ts-boilerplate",
     "author": {
         "name": "Wooseok Kim"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/vvs-kim/react-ts-webpack-boilerplate"
+        "url": "https://github.com/vvs-kim/react-webpack-ts-boilerplate"
     },
     "keywords": [
         "react",
