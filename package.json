@@ -3,9 +3,8 @@
     "version": "0.1.0",
     "description": "It automatically builds a react, webpack, and typescript working environment",
     "main": "index.tsx",
-    "scripts": {
-        "dev": "webpack-dev-server --config config/webpack.dev.js",
-        "build": "webpack --config config/webpack.prod.js"
+    "bin": {
+        "create-react-webpack-ts-app": "./bin/generate-app.js"
     },
     "license": "ISC",
     "homepage": "https://github.com/vvs-kim/react-webpack-ts-boilerplate",
@@ -20,11 +19,19 @@
         "react",
         "typescript",
         "webpack",
+        "boilerplate",
+        "CRA",
         "yarn-berry",
+        "zero-install",
         "prettier",
         "airbnb",
-        "eslint"
+        "eslint",
+        "prettier"
     ],
+    "scripts": {
+        "dev": "webpack-dev-server --config config/webpack.dev.js",
+        "build": "webpack --config config/webpack.prod.js"
+    },
     "dependencies": {
         "react": "^18.0.0",
         "react-dom": "^18.0.0",

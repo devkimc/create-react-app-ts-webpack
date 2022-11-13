@@ -23,7 +23,7 @@ if (projectName !== '.') {
         if (error.code === 'EEXIST') {
             console.log(projectName);
             console.log(
-                `The file ${projectName} already exist in the current directory, please give it another name.`
+                `The file ${projectName} already exist in the current directory, please give it another name.`,
             );
         } else {
             console.log(error);
@@ -40,14 +40,13 @@ async function main() {
         if (projectName !== '.') {
             process.chdir(projectPath);
         }
-        console.log('Remove git version file');
+
+        console.log('Removing useless files');
+        execSync('npx rimraf ./bin');
         execSync('npx rimraf ./.git');
 
         console.log('💾 Yarn install...');
         execSync('yarn');
-
-        console.log('🗑 Removing useless files');
-        execSync('npx rimraf ./.bin');
 
         console.log('The installation is done, this is ready to use !');
     } catch (error) {
