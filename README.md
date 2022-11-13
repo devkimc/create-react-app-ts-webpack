@@ -4,12 +4,13 @@
 
 -   ❌ Improve errors where the node_modules folder is created
 
-### It automatically builds a react, webpack, and ts working environment. This package helps you set up:
+### It automatically builds a react, webpack, and ts working environment. This package helps the following people:
 
--   Webpack build setting
--   Airbnb convention(eslint, prettier)
--   Yarn berry package manager
--   Deployment with zero-install eliminates the need to install additional packages.
+-   People who want a light initial project because the create-react-app CRA is heavy
+-   People who need a CRA with react, typescript, yarn, etc
+-   People who start with web pack settings for react
+-   People who want to start a project with airbnb convention (eslint, prettier)
+-   People who do not want to install additional packages when collaborating with yarn berry's zero-install
 
 <br />
 

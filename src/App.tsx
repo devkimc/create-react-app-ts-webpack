@@ -8,7 +8,7 @@ const App = () => {
     //         <Route path="/" />
     //     </Routes>
     // </BrowserRouter>
-    return <h1>Home</h1>;
+    return <h1>React webpack typescript boilerplate</h1>;
 };
 
 export default App;
